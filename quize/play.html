@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styleplay.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="question">
+          <div class="question-text"></div>
+          <div class="question-answer">
+            <label for="true">True</label>
+            <input
+              type="radio"
+              name="boolean"
+              class="correct-answer"
+              id="true"
+              data-category="True"
+              ;
+            />
+            <label for="false">False</label>
+            <input
+              type="radio"
+              name="boolean"
+              class="incorrect-answer"
+              id="false"
+              data-category="False"
+              ;
+            />
+          </div>
+        </div>
+        <div class="down-buttons">
+          <button class="previous-question">Previous</button>
+          <button class="next-question">Next</button>
+        </div>
+        <a class="link" href="./index.html">Return to the main page</a>
+      </div>
+    </main>
+    <script src="./script/scriptplay.js"></script>
+  </body>
+</html>
